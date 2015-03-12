@@ -1,0 +1,61 @@
+#panel3 {
+    background: transparent url(panel3.jpg) no-repeat top left;
+    height:305px;
+    width:503px;
+
+}
+#panel 15{
+background: transparent url(panel5.jpg);
+      height:556px;
+      width: 572px;
+       float:left
+
+}#bubble1 {
+
+     position: absolute;
+     top: 15px;
+     left: 37px;
+     font-family: arial;
+     font-size: 19px;
+
+ }
+
+.bubbles {
+    position: absolute;
+    font-family:arial;
+    font-size: 19px;
+    text-size: 18px;
+    text-transform: uppercase;
+
+}
+
+#bubble2 {
+    position: absolute;
+    top: 18px;
+    left: 170px;
+    font-family: comic;
+    font-size: 14px;
+    width: 296px;
+    text-transform: uppercase;
+
+#bubble3 {
+    position: absolute;
+    top: 95px;
+    left: 285px;
+    width: 130px;
+    font-size: 15px;
+ }
+
+ .bump {
+     display:margin-left:10px;
+
+ }
+ .bump 10
+{
+    margin: -left: 10px
+;
+}
+
+.bump5 {
+    margin-left:5px;
+}

@@ -1,0 +1,22 @@
+link
+
+ a.link{
+    color:orange
+}
+
+visited  a:visted{
+        colore:pink;
+        text-decoration:none;
+        font-style:italic
+
+
+}
+
+hover     a:hover{
+            backgorund-color:black;
+            }
+
+active   a:active {
+  background-color:blue;
+  }
+

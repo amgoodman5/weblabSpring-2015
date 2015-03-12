@@ -1,10 +1,31 @@
 div {
     width:50%;
     margin:0 auto;
+    line-height: 1.8;
 
 }
 h1 {
     font-family:sans-serif;
     border-bottom:6px double black;
+    text-shadow:
 }
 
+img {
+    width: 50%;
+    float: right;
+
+
+}
+
+li {
+    color: lawngreen
+
+
+
+
+}
+
+a:link {
+    color:orange;
+
+}
