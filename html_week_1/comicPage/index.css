@@ -46,7 +46,7 @@ background: transparent url(panel5.jpg);
     top: 91px;
     left: 285px;
     font-family: fantasy;
-    font-size: 16px;
+    font-size: 15px;
     width: 130px;
     text-transform: uppercase;
 
@@ -89,7 +89,71 @@ background: transparent url(panel5.jpg);
     width: 92px;
     text-transform: uppercase;
 }
+#bubble8 {
+    position: absolute;
+    top: 486px;
+    left: 35px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 92px;
+    text-transform: uppercase;
+}
+#bubble9 {
+    position: absolute;
+    top: 488px;
+    left: 260px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 173px;
+    text-transform: uppercase;
 
+}
+#bubble10 {
+    position: absolute;
+    top: 716px;
+    left: 260px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 173px;
+    text-transform: uppercase;
+
+}
+#bubble11{
+    position: absolute;
+    top: 488px;
+    left: 691px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 173px;
+    text-transform: uppercase;
+}
+#bubble12{
+    position: absolute;
+    top: 791px;
+    left: 46px;
+    font-family: fantasy;
+    font-size: 16px;
+    width: 173px;
+    text-transform: uppercase;
+}
+#bubble13 {
+    position: absolute;
+    top: 788px;
+    left: 426px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 173px;
+    text-transform: uppercase;
+}
+#bubble14{
+    position: absolute;
+    top: 799px;
+    left: 749px;
+    font-family: fantasy;
+    font-size: 16px;
+    width: 173px;
+    text-transform: uppercase;
+}
 
 
  .bump {
