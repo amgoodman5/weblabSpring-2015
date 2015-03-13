@@ -15,14 +15,16 @@ background: transparent url(panel5.jpg);
      position: absolute;
      top: 15px;
      left: 37px;
-     font-family: arial;
+     font-family: fantasy;
      font-size: 19px;
+    width:
+
 
  }
 
 .bubbles {
     position: absolute;
-    font-family:arial;
+    font-family:fantasy;
     font-size: 19px;
     text-size: 18px;
     text-transform: uppercase;
@@ -31,20 +33,64 @@ background: transparent url(panel5.jpg);
 
 #bubble2 {
     position: absolute;
-    top: 18px;
-    left: 170px;
-    font-family: comic;
-    font-size: 14px;
+    top: 21px;
+    left: 162px;
+    font-family: fantasy;
+    font-size: 17px;
     width: 296px;
     text-transform: uppercase;
+}
 
 #bubble3 {
     position: absolute;
-    top: 95px;
+    top: 91px;
     left: 285px;
+    font-family: fantasy;
+    font-size: 16px;
     width: 130px;
-    font-size: 15px;
+    text-transform: uppercase;
+
  }
+
+#bubble4 {
+    position: absolute;
+    top: 24px;
+    left: 495px;
+    font-family: fantasy;
+    font-size: 16px;
+    width: 139px;
+    text-transform: uppercase;
+}
+#bubble5 {
+    position: absolute;
+    top: 24px;
+    left: 724px;
+    font-family: fantasy;
+    font-size: 14px;
+    width: 168px;
+    text-transform: uppercase;
+}
+#bubble6 {
+    position: absolute;
+    top: 142px;
+    left: 727px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 168px;
+    text-transform: uppercase;
+}
+
+#bubble7 {
+    position: absolute;
+    top: 288px;
+    left: 821px;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 92px;
+    text-transform: uppercase;
+}
+
+
 
  .bump {
      display:margin-left:10px;
