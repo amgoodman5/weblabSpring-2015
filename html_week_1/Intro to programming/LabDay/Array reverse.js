@@ -2,10 +2,10 @@
  * Created by AaronG on 3/26/2015.
  */
 
-var name= ("Aaron"+"+Goodman");
-function reverse(s){
-    return s.split("")//.reverse().join("");
 
-}
 
-console.log(reverse("Aaron"+""+"Goodman"));
+var years = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
+
+years.reverse(0,1,2,3,4);
+
+console.log(years)
