@@ -12,7 +12,8 @@ var word ="aAR"; //* a word that is a string that Ill test for holes.
 function countHole(str) {
 
     var total = 0;
-    var lettersArray = str.split('');     //array
+    var lettersArray = str.split('');
+      //array
 
     lettersArray.forEach(
         function (ltr) {
@@ -25,4 +26,6 @@ function countHole(str) {
 
     return total;
 }
-document.write(countHoles(word));
+//document.write(countHoles(word));
+
+console.log(countHole('Aaron'));
