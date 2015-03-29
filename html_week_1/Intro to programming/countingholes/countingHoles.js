@@ -15,9 +15,7 @@ function countHole(str) {
     var lettersArray = str.split('');
       //array
 
-    lettersArray.forEach(
-        function (ltr) {
-            total += hole[ltr] || 0;
+
 
 
             //defined "hole" as an object with properties
@@ -28,4 +26,5 @@ function countHole(str) {
 }
 //document.write(countHoles(word));
 
-console.log(countHole('Aaron'));
+console.log(countHole('GOodman'
+));
