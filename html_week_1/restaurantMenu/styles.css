@@ -1,19 +1,43 @@
-#specials {
 
-    width: 862px;
-    height: 359px;
-    padding: 11px;
-    margin: 83px;
-    background: #ACBF8F;
-    color: #fff;
-    font-size: 19px;
+
+body {
+    background:#7A0808;
+    margin: 0 auto;
+}
+
+#specials {
+width: 862px;
+height: 359px;
+padding: 11px;
+margin: 0 auto;
+background: url("http://th09.deviantart.net/fs39/PRE/f/2008/334/3/f/Old_China___Grunge_by_tonemapped.jpg");
+color: #212032;
+font-size: 20px;
+font-weight: bold;
+line-height: 1.3em;
+border-radius: 62px;
+box-shadow: 0 0 0 4px #6A141A, 22px 25px 60px 4px rgba(10, 10, 0, 0.5);
+text-shadow: -1px -1px #aa3030;
+font-weight: normal;
+font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
+font-style: oblique;
+}
+
+
+#LunchSpecials {
+    width: 423px;
+    height: 450px;
+    padding: 12px;
+    margin: 66px;
+    background: url("http://www.unariuswisdom.com/wp-content/uploads/2015/03/c-screen.gif");
+    color: #212032;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.3em;
-    border: 7px dashed #984746;
-    border-radius: 10px;
-    box-shadow: 0 0 0 4px #6A141A, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    border-radius: 62px;
+    box-shadow: 0 0 0 4px #6A141A, 22px 25px 60px 4px rgba(10, 10, 0, 0.5);
     text-shadow: -1px -1px #aa3030;
-    font-weight: normal;
-}
-}
-
+    http: //www.unariuswisdom.com/wp-content/uploads/2015/03/c-screen.gif
+font-weight: normal;
+    font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
+    font-style: oblique;

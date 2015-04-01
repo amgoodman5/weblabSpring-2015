@@ -8,6 +8,8 @@ $(function() {
             el.removeClass('active');
         } else {
             el.addClass('active');
+        0.
+
         }
 
     });

@@ -5,5 +5,22 @@
     margin: 25px;
 }
 .box-wrapper.active {
-    background: red;
+    background: #EFAA29;
+
+}
+.box-wrapper{
+width: 862px;
+height: 359px;
+padding: 11px;
+margin: 83px;
+background: #ACBF8F;
+color: #fff;
+font-size: 19px;
+font-weight: bold;
+line-height: 1.3em;
+border: 7px dashed #984746;
+border-radius: 10px;
+box-shadow: 0 0 0 4px #6A141A, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+text-shadow: -1px -1px #aa3030;
+font-weight: normal;
 }
