@@ -1,26 +1,29 @@
 
 
 body {
-    background:#7A0808;
+    background:url("https://www.dfiaging.com/beauty-blog/wp-content/uploads/2013/06/bamboo.jpeg");
     margin: 0 auto;
 }
 
+
 #specials {
-width: 862px;
-height: 359px;
-padding: 11px;
-margin: 0 auto;
-background: url("http://th09.deviantart.net/fs39/PRE/f/2008/334/3/f/Old_China___Grunge_by_tonemapped.jpg");
-color: #212032;
-font-size: 20px;
-font-weight: bold;
-line-height: 1.3em;
-border-radius: 62px;
-box-shadow: 0 0 0 4px #6A141A, 22px 25px 60px 4px rgba(10, 10, 0, 0.5);
-text-shadow: -1px -1px #aa3030;
-font-weight: normal;
-font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
-font-style: oblique;
+    width: 862px;
+    height: 359px;
+    padding: 11px;
+    margin: 0 auto;
+    background: url("http://images.fineartamerica.com/images-medium-large/red-bamboo-nomi-elboim.jpg");
+    color: #212032;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border-radius: 70px;
+    box-shadow: 0 0 0 4px #CEF09D, 22px 25px 60px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
+    font-style: oblique;
+    text-overflow-: hidden;
+
 }
 
 
@@ -28,8 +31,8 @@ font-style: oblique;
     width: 423px;
     height: 450px;
     padding: 12px;
-    margin: 66px;
-    background: url("http://www.unariuswisdom.com/wp-content/uploads/2015/03/c-screen.gif");
+    margin: 86px;
+    background: url("http://images.fineartamerica.com/images-medium-large/red-bamboo-nomi-elboim.jpg");
     color: #212032;
     font-size: 20px;
     font-weight: bold;
@@ -37,7 +40,9 @@ font-style: oblique;
     border-radius: 62px;
     box-shadow: 0 0 0 4px #6A141A, 22px 25px 60px 4px rgba(10, 10, 0, 0.5);
     text-shadow: -1px -1px #aa3030;
-    http: //www.unariuswisdom.com/wp-content/uploads/2015/03/c-screen.gif
-font-weight: normal;
+    http: / / www . unariuswisdom . com /wp-content/ uploads / 2015 / 03 / c-screen . gif font-weight : normal;
     font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
     font-style: oblique;
+}
+
+
