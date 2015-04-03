@@ -22,7 +22,7 @@ body {
     font-weight: normal;
     font-family: "Brandon Grotesque Medium", "Helvetica", "Arial";
     font-style: oblique;
-    text-overflow-: hidden;
+    text-overflow:initial;
 
 }
 
