@@ -1,17 +1,6 @@
-$(function() {
-
-    var box = $('.box-wrapper');
-
-    box.on('click', function (event) {
-        var el = $(this); //this is the element above
-        if(el.hasClass('active')){ //click on click off
-            el.removeClass('active');
-        } else {
-            el.addClass('active');
-
-            
-        }
-
+$(document).ready(function() {
+    $('#box').mouseenter(function() {
     });
+    $('#box').fadeTo('fast', 1);
 
 });

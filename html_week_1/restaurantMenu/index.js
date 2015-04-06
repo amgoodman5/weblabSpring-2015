@@ -1,5 +1,5 @@
 
-//$(function(){
+$(function(){
     var box = $('#specials,#LunchSpecials');
     box.on('mouseenter', function(){
         box
