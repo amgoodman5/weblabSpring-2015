@@ -2,7 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Stop Light</title> <link rel="stylesheet" href="index.css">
+    <title>Stop Light</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -10,24 +12,31 @@
     <div class="lightFrame">
         <div class="light">
             <div class="hood"></div>
-                <div class="bulb-red"></div>
+                <div class="bulb red"></div>
                  <div class="lamp"></div>
+                    <div class="hilite"></div>
 
             </div>
                 <div class="light">
                  <div class="hood"></div>
-                  <div class="bulb-yellow"></div>
+                  <div class="bulb yellow"></div>
                     <div class="lamp"></div>
+                     <div class="hilite"></div>
                       </div>
                              <div class="light">
                                 <div class="hood"></div>
-                                    <div class="bulb-green"></div>
+                                    <div class="bulb green"></div>
                                     <div class="lamp"></div>
+                                     <div class="hilite"></div>
                           </div>
         </div>
     </div>
-
-
+<div class="buttons">
+    <button data-color="red">Red</button>
+    <button data-color="yellow">Yellow</button>
+    <button data-color="green">Green</button>
+</div>
+<script src="index.js"></script>
 
 
 
