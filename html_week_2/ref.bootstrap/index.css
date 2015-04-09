@@ -49,10 +49,18 @@ user agent stylesheeta:-webkit-any-link {
     text-decoration: underline;
     cursor: auto;
 }
-.jumbotron {
 
-    background-image: url("file:///C:/Users/AaronG/Desktop/10897105_949153432406_4104878495760794625_n.jpg");
+
+#jumbotron {
+    background: url(../../cloudvalley.jpg) no-repeat center left;
     background-size: cover;
+
+}
+#div.log {
+    height:90px;
+    width:80px;
+    position:absolute;
+}
 
 
 }
