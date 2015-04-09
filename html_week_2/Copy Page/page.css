@@ -1,0 +1,29 @@
+
+
+
+
+.jumbotron {
+    margin: 0 auto;
+    height: 500px;
+    background: url(https://raw.githubusercontent.com/guyjin/weblabSpring2015/4826b16c777afc39819a161a889b42348b6a37f5/html_week_2/fullPage/img/header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position:relative;
+
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+}
+.h2 {
+   margin-top:250px;
+    font-size:30px;
+}
+
+.p {
+}
