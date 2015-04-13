@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Arapey:400italic|Montserrat:400,700);
+html {
+    font-size: 10px;
+}
+@media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body, html {
+    text-rendering: optimizeLegibility;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 0 1px;
+    height: 100%;
+}
+
+a {
+    color: #fff;
+    -webkit-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+section {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mountains {
+    background-image: url("https://scontent-dfw.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/480181_4361055587712_508847663_n.jpg?oh=397a5206a86f1438828fa158bdc6872c&oe=55977098");
+}
+
+.forest {
+    background-image: url(https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/404780_4361055907720_431683157_n.jpg?oh=47e4fe91b968f6c56409abe07ee10e78&oe=559FFC2C&__gda__=1437185547_1ee7a84916db73614d377f3142787e95);
+    background-color: #1B1C15;
+}
+
+.escapism {
+    background-image: url(https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10574255_910804713546_3942924803158865903_n.jpg?oh=778def49d45c56bc2d37a34f296cc3a7&oe=55A76CE3&__gda__=1440845832_e28d004ba4643f867e7f2ae5b8c64c15);
+    background-color: #1B1C15;
+}
+
+.escapism hgroup {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+hgroup {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-family: Arapey, serif;
+    font-style: italic;
+}
+
+section > * {
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+}
