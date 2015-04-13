@@ -7,7 +7,7 @@ $(function() {
                 var color = $(this).attr('data-color');
         				$("." + color).toggleClass('on');
         				$(this).addClass('on');
-                
+
 
 
 
