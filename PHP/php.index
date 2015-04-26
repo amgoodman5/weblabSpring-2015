@@ -1,6 +1,6 @@
 Demonstrate the use of php methods like phpinfo, arrays, loops, if/else, print and print_r
 
-    //Php info syntax
+------->Php info syntax
 
 <?php
 
@@ -12,7 +12,7 @@ phpinfo( $_GET['id']);
 ?>
 
 
-//Arrays in PHP
+------->Arrays in PHP
 
 <?php
 $country = array("Thailand", "Canada", "Japan","China");
@@ -20,3 +20,25 @@ echo "I want to go to " . $country[0] . ", " . $country[1] . " and " . $country[
 ?>
 
 
+------>PHP Loops
+
+<?php
+$country = array("Thailand", "Canada", "Japan", "China");
+
+foreach ($country as $value) {
+    echo "$value <br>";
+}
+?>
+
+//if statements
+<?php
+
+if($n > $b):
+    echo $a." is greater than ".$b;
+elseif($a == $b): // Note the combination of the words.
+    echo $a." equals ".$b;
+else:
+    echo $a." is neither greater than or equal to ".$b;
+endif;
+
+?>
